@@ -1,3 +1,4 @@
+ (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
 diff --git a/script.js b/script.js
 index 3b7c2e67741807aaa5a0f3dcd0c2e35bf504c57e..8d04f5c48fed04d4dfb8ade5410ed409791927eb 100644
 --- a/script.js
@@ -57,3 +58,6 @@ index 3b7c2e67741807aaa5a0f3dcd0c2e35bf504c57e..8d04f5c48fed04d4dfb8ade5410ed409
  function validate(formData) {
    const required = ['name', 'municipality', 'email']
    const errors = {}
+ 
+EOF
+)
