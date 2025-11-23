@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PROJECT HIVE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="locked">
+  <div class="background-layer">
+    <div class="particle-grid"></div>
+    <div class="particle-grid delayed"></div>
+    <div class="line-flow"></div>
+    <div class="hive-orbit"></div>
+  </div>
+
+  <main class="story">
+    <header class="logo">PROJECT HIVE</header>
+
+    <!-- HERO -->
+    <section class="screen hero visible" id="hero">
+      <div class="hero-content appear">
+        <p class="eyebrow" data-anim="drift" style="--delay:0s">PROJECT HIVE</p>
+        <h1 data-anim="rise" style="--delay:0.1s">Ready to be part of the future?</h1>
+        <p class="subtitle" data-anim="soft-glow" style="--delay:0.25s">Something new is coming to your city.</p>
+        <div class="pulse-ticker" data-anim="ticker" style="--delay:0.4s">
+          <div class="pulse-track">
+            <span>Signals that learn.</span>
+            <span>Flow that adapts.</span>
+            <span>Movement that feels alive.</span>
+            <span>Signals that learn.</span>
+            <span>Flow that adapts.</span>
+            <span>Movement that feels alive.</span>
+          </div>
+        </div>
+        <button class="cta" data-scroll-target="#why" data-anim="cta-pop" style="--delay:0.6s">Enter the Hive</button>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="hero-ring"></div>
+        <div class="hero-ring delayed"></div>
+        <div class="signal-wave"></div>
+        <div class="hex-spark"></div>
+      </div>
+    </section>
+
+    <!-- WHY -->
+    <section class="screen narrative" id="why">
+      <div class="ambient-glow" aria-hidden="true"></div>
+      <div class="signal-hint vertical" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="text-stack">
+        <p class="line emphasis" data-anim="typewriter" style="--delay:0.1s">Cities are alive.</p>
+        <p class="line" data-anim="cascade" style="--delay:0.2s">They <span class="word word-grow delay-1">grow</span>, <span class="word word-shift delay-2">shift</span>, <span class="word word-breathe delay-3">breathe</span>,</p>
+        <p class="line" data-anim="fade-left" style="--delay:0.35s">yet the systems guiding them haven’t evolved with the rhythm.</p>
+        <p class="line emphasis" data-anim="pulse" style="--delay:0.45s">Traffic isn’t a problem of cars.</p>
+        <p class="line" data-anim="fade-up" style="--delay:0.55s">It’s a lack of flow.</p>
+        <p class="line" data-anim="fade-up" style="--delay:0.65s">A gap in understanding how a city truly moves.</p>
+        <p class="line emphasis" data-anim="shine" style="--delay:0.75s">We believe cities deserve movement that finally makes sense.</p>
+        <p class="line closing" data-anim="underline" style="--delay:0.85s">This is why we started PROJECT HIVE.</p>
+      </div>
+    </section>
+
+    <!-- HOW -->
+    <section class="screen how" id="how">
+      <div class="text-stack">
+        <p class="line" data-anim="fade-up" style="--delay:0.1s">We’re giving your city something it never had:</p>
+        <p class="line highlight" data-anim="pulse" style="--delay:0.2s">a brain.</p>
+        <p class="line" data-anim="drift-right" style="--delay:0.3s">A layer that senses how movement forms,</p>
+        <p class="line" data-anim="drift-right" style="--delay:0.4s">anticipates what’s coming next,</p>
+        <p class="line" data-anim="drift-right" style="--delay:0.5s">and adjusts the city’s flow before anyone feels the slowdown.</p>
+        <p class="line" data-anim="duo" style="--delay:0.6s"><span class="word word-install">Nothing to install.</span></p>
+        <p class="line" data-anim="duo" style="--delay:0.7s"><span class="word word-maintain">Nothing to maintain.</span></p>
+        <p class="line emphasis" data-anim="soft-glow" style="--delay:0.8s">Just intelligence working quietly all across the city.</p>
+      </div>
+      <div class="honeycomb"></div>
+    </section>
+
+    <!-- WHAT -->
+    <section class="screen what" id="what">
+      <div class="text-stack">
+        <p class="line headline" data-anim="rise" style="--delay:0.1s">PROJECT HIVE reshapes how an entire city moves.</p>
+        <p class="line emphasis" data-anim="pulse" style="--delay:0.2s">No hardware. No installations.</p>
+        <p class="line" data-anim="fade-left" style="--delay:0.3s">A citywide layer of intelligence that improves flow, reduces stops, and keeps movement alive without touching a single traffic light.</p>
+        <div class="callouts">
+          <p class="line" data-anim="badge" style="--delay:0.35s">It works at scale.</p>
+          <p class="line" data-anim="badge" style="--delay:0.45s">It’s faster to deploy.</p>
+          <p class="line" data-anim="badge" style="--delay:0.55s">It costs a fraction of anything the market has seen before.</p>
+        </div>
+        <p class="line emphasis" data-anim="soft-glow" style="--delay:0.65s">And the longer it runs, the smarter it becomes. Your city evolves week by week.</p>
+        <p class="line" data-anim="fade-up" style="--delay:0.75s">Cities feel the change right away. Engineers see the results. Drivers sense the difference without even knowing why.</p>
+        <p class="line emphasis" data-anim="shine" style="--delay:0.85s">It feels like magic. But it’s real.</p>
+        <div class="signal-hint horizontal" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <p class="line closing" data-anim="underline" style="--delay:0.95s">Want to hear how we do it? Contact us for more.</p>
+      </div>
+      <div class="flow-lines"></div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="screen contact" id="contact">
+      <div class="contact-card" data-anim="rise" style="--delay:0.1s">
+        <h2 data-anim="typewriter" style="--delay:0.2s">Let’s talk.</h2>
+        <p data-anim="fade-up" style="--delay:0.3s">If you’re responsible for how your city moves, we’d love to show you what we’re building.</p>
+        <form id="contactForm" novalidate>
+          <div class="form-row">
+            <label>Name*</label>
+            <input type="text" name="name" required placeholder="Your name" />
+            <small class="error"></small>
+          </div>
+          <div class="form-row">
+            <label>Role</label>
+            <input type="text" name="role" placeholder="Title or position" />
+          </div>
+          <div class="form-row">
+            <label>Municipality*</label>
+            <input type="text" name="municipality" required placeholder="City / Municipality" />
+            <small class="error"></small>
+          </div>
+          <div class="form-row">
+            <label>Email*</label>
+            <input type="email" name="email" required placeholder="you@city.gov" />
+            <small class="error"></small>
+          </div>
+          <div class="form-row">
+            <label>Phone</label>
+            <input type="tel" name="phone" placeholder="+1 (555) 123-4567" />
+          </div>
+          <button type="submit" class="cta">Get in touch</button>
+          <p class="note">For early access cities only.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <nav class="progress-indicator">
+    <button data-scroll-target="#hero" aria-label="Hero slide"></button>
+    <button data-scroll-target="#why" aria-label="Why slide"></button>
+    <button data-scroll-target="#how" aria-label="How slide"></button>
+    <button data-scroll-target="#what" aria-label="What slide"></button>
+    <button data-scroll-target="#contact" aria-label="Contact slide"></button>
+  </nav>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
